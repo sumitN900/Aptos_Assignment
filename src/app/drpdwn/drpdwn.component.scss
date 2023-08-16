@@ -1,0 +1,90 @@
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+
+input[type=text]:hover {
+  background-color: #acebaf;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+select:required:invalid {
+    color: #666;
+  }
+  option[value=""][disabled] {
+    display: none;
+  }
+
+  
+  option {
+    color: #000;
+    overflow-y: scroll;
+
+  }
+
+  select option {
+    // background-color: rgb(240, 232, 130);
+    background-color:#FFFFE0;
+  }
+
+
+
+
+
+
+  #multiselect-diacritics.control-section{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 185px;
+}
+
+.e-bigger #multiselect-diacritics.control-section {
+    width: 100%;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+  
+
+
+
+

@@ -1,0 +1,29 @@
+<h3>ATOPS UI Developer Test</h3>
+<!-- <div class="col-md-4">
+    <label> <b>Design: Default State</b></label> <br>
+        <select [(ngModel)]="selectedOptions" style="width:600px;">
+            <option *ngFor="let x of optionsList" [value]="x.name">{{x.name}} </option>
+          </select>  <br>
+          <label> <b>Design: Selected Option</b></label> <br>
+          <input class="form-control" type="text" value="{{selectedOptions}}" placeholder="Select an option" style="width:600px;"> 
+</div> -->
+
+          <div class="col-md-4">
+            <div class="outline">
+                <label><b>Design: Default State</b></label> <br>   
+            <select  [(ngModel)]="selectedOptions" required style="width: 600px;" [ngStyle]="{'overflow':'scroll'}">
+                <ng-container *ngIf="!selectedOptions">
+                    <option value="" disabled selected [ngValue]="selectedOptions">Select an option</option>
+                </ng-container>
+                <option *ngFor="let x of optionsList" [value]="x.name">{{x.name}}</option>
+            </select>
+         
+            <br>
+
+            <label> <b>Design: Selected Option</b></label> <br>
+          <input type="text" value="{{selectedOptions}}" placeholder="Select an option" style="width:600px;">
+        </div>
+
+    </div>
+
+

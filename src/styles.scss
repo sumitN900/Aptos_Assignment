@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+.outline{
+    overflow: auto;
+    width: 70; /* adjust this width depending to amount of text to display */
+    height: 300px; /* adjust height depending on number of options to display */
+    border: 1px rgb(50, 53, 50) solid;
+
+  }
+  .outline select{
+    border: none;
+  }
+
+  h3{
+    text-align: center;
+  }
